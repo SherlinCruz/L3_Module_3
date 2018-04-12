@@ -10,4 +10,6 @@ public abstract class SpecialString implements TextFunkifier{
 	public String toString() {
 		return s;
 	}
+	
+	abstract public String funkifyText(String s);
 }

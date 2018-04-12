@@ -1,6 +1,8 @@
 package abstract_classes.farm;
 
-public class Duck extends Animal{
+public class Duck extends Animal {
+
+	
 
 	public Duck(String name, int age) {
 		super(name, age);
@@ -11,6 +13,8 @@ public class Duck extends Animal{
 	public void makeNoice() {
 		// TODO Auto-generated method stub
 		
+		System.out.println("QUACK");
+		
 	}
-	
+
 }

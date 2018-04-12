@@ -11,5 +11,9 @@ public class Pig extends Animal {
 	public void makeNoice() {
 		// TODO Auto-generated method stub
 		
+		System.out.println("OINK");
+		
+		
 	}
+
 }
