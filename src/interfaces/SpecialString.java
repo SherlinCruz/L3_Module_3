@@ -10,6 +10,14 @@ public abstract class SpecialString implements TextFunkifier{
 	public String toString() {
 		return s;
 	}
-	
-	abstract public String funkifyText(String s);
+
+	public void append(SpecialString bs) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public SpecialString reverse() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

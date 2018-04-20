@@ -2,6 +2,8 @@ package interfaces;
 
 import static org.junit.Assert.*;
 
+import java.util.Scanner;
+
 import org.junit.Test;
 
 public class TestInterfaces {
@@ -11,7 +13,8 @@ public class TestInterfaces {
 		SpecialString bs = new BackwardsString("This is a test");
 		System.out.println(bs);
 		assertEquals("tset a si sihT", bs.toString());
-	}z
+		
+	}
 	
 	@Test
 	public void testMixedCapsString() {
